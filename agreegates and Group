@@ -1,0 +1,31 @@
+agreegates 
+
+select max(marks)
+from bacha
+
+select min(marks)
+from bacha
+
+select avg(marks)
+from bacha
+
+select count(marks)
+from bacha
+
+many more aggregates
+
+
+GROUPING WITH AGGREGATE PROPERTIES
+
+SELECT CITY,COUNT(NAME)
+FROM BACHA
+GROUP BY CITY;
+
+SELECT CITY,AVG(MARKS)
+FROM BACHA
+GROUP BY CITY;
+
+SELECT CITY,COUNT(NAME),MAX(MARKS),AVG(MARKS)
+FROM BACHA 
+GROUP BY CITY
+ORDER BY CITY;
