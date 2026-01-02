@@ -1,0 +1,14 @@
+create database college;
+use college;
+create table students(
+  id int primary key,
+  name varchar (10),
+  age int not null
+);
+INSERT INTO STUDENTS
+(ID,NAME,AGE)
+VALUES
+(5,"MODI",67),
+(6,"MESSI",38);
+
+SELECT*FROM STUDENTS;
